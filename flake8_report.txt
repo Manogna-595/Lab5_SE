@@ -1,11 +1,10 @@
-inventory_system.py:2:1: F401 'logging' imported but unused
-inventory_system.py:8:1: E302 expected 2 blank lines, found 1
-inventory_system.py:9:20: E701 multiple statements on one line (colon)
-inventory_system.py:15:1: E302 expected 2 blank lines, found 1
-inventory_system.py:23:1: E302 expected 2 blank lines, found 1
-inventory_system.py:26:1: E302 expected 2 blank lines, found 1
-inventory_system.py:32:1: E302 expected 2 blank lines, found 1
-inventory_system.py:37:1: E302 expected 2 blank lines, found 1
-inventory_system.py:42:1: E302 expected 2 blank lines, found 1
-inventory_system.py:49:1: E302 expected 2 blank lines, found 1
-inventory_system.py:60:1: W293 blank line contains whitespace
+inventory_system.py:7:1: E302 expected 2 blank lines, found 1
+inventory_system.py:8:20: E701 multiple statements on one line (colon)
+inventory_system.py:14:1: E302 expected 2 blank lines, found 1
+inventory_system.py:22:1: E302 expected 2 blank lines, found 1
+inventory_system.py:25:1: E302 expected 2 blank lines, found 1
+inventory_system.py:31:1: E302 expected 2 blank lines, found 1
+inventory_system.py:36:1: E302 expected 2 blank lines, found 1
+inventory_system.py:41:1: E302 expected 2 blank lines, found 1
+inventory_system.py:48:1: E302 expected 2 blank lines, found 1
+inventory_system.py:59:1: W293 blank line contains whitespace
