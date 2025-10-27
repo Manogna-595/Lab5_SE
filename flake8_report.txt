@@ -3,8 +3,11 @@ inventory_system.py:8:20: E701 multiple statements on one line (colon)
 inventory_system.py:14:1: E302 expected 2 blank lines, found 1
 inventory_system.py:22:1: E302 expected 2 blank lines, found 1
 inventory_system.py:25:1: E302 expected 2 blank lines, found 1
-inventory_system.py:31:1: E302 expected 2 blank lines, found 1
-inventory_system.py:36:1: E302 expected 2 blank lines, found 1
-inventory_system.py:41:1: E302 expected 2 blank lines, found 1
-inventory_system.py:48:1: E302 expected 2 blank lines, found 1
-inventory_system.py:59:1: W293 blank line contains whitespace
+inventory_system.py:26:22: W291 trailing whitespace
+inventory_system.py:28:34: W291 trailing whitespace
+inventory_system.py:30:1: E302 expected 2 blank lines, found 1
+inventory_system.py:32:43: W291 trailing whitespace
+inventory_system.py:34:1: E302 expected 2 blank lines, found 1
+inventory_system.py:39:1: E302 expected 2 blank lines, found 1
+inventory_system.py:46:1: E302 expected 2 blank lines, found 1
+inventory_system.py:57:1: W293 blank line contains whitespace

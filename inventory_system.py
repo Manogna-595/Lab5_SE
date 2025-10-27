@@ -23,15 +23,13 @@ def getQty(item):
     return stock_data[item]
 
 def loadData(file="inventory.json"):
-    f = open(file, "r")
-    global stock_data
-    stock_data = json.loads(f.read())
-    f.close()
+    global stock_data 
+    with open(file, "r", encoding="utf-8") as f:
+        stock_data = json.load(f)  
 
 def saveData(file="inventory.json"):
-    f = open(file, "w")
-    f.write(json.dumps(stock_data))
-    f.close()
+    with open(file, "w", encoding="utf-8") as f:
+        json.dump(stock_data, f, indent=4)  
 
 def printData():
     print("Items Report")
