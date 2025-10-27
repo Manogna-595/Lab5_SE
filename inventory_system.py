@@ -56,6 +56,6 @@ def main():
     saveData()
     loadData()
     printData()
-    eval("print('eval used')")  # dangerous
+    
 
 main()
